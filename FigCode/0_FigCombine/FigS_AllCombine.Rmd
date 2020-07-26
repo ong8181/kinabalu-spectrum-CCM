@@ -1,0 +1,148 @@
+---
+title: "Supplementary Figures and Tables for \"Temperature is a dominant driver of distinct annual seasonality of leaf litter production of equatorial tropical rain forests\""
+author: "Kanehiro Kitayama, Masayuki Ushio, Shin-ichiro Aiba"
+output:
+  pdf_document:
+    latex_engine: xelatex
+    fig_caption: yes
+#mainfont: Georgia
+mainfont: Palatino
+fontsize: 11pt
+header-includes:
+   - \usepackage{caption}
+   - \captionsetup[figure]{labelformat=empty}
+   - \pagenumbering{gobble} #### to delete page number
+classoption: a4paper
+---
+
+# Contents:
+* **Figure S1**| Algorithm of spectrum convergent cross mapping (spectrum CCM) and examples of model time series used for the performance test of spectrum CCM
+* **Figure S2**| The results of the performance test of spectrum convergent cross mapping (spectrum CCM)
+* **Figure S3**| The results of the performance test of convergent cross mapping (normal CCM)
+* **Figure S4**| Monthly patterns of leaf litter production in the tropical rain forests on Mt. Kinabalu
+* **Figure S5**| Time series of flower litter production in tropical rain forests on Mt. Kinabalu
+* **Figure S6**| Monthly patterns of daily mean air temperature
+* **Figure S7**| Confidence intervals and significance of the dominant periodicity of litter and meteorological time series
+* **Figure S8**| Wavelet analysis of leaf litter production
+* **Figure S9**| Wavelet analysis of flower litter production
+* **Figure S10**| Wavelet analysis of daily mean air temperature
+* **Table S1**| Time series length used for Fourier analysis
+* **Table S2**| Summary of Fourier analysis of litter
+* **Table S3**| Summary of Fourier analysis of climate variables
+
+
+
+<center>
+
+![
+**Figure S1**| **Algorithm of spectrum convergent cross mapping (spectrum CCM) and examples of model time series used for the performance test of spectrum CCM.** (**a**) Model time series that shows moderate seasonality (twelve-year time series with 2-week intervals). (**b**) Fourier analysis of the model time series, showing that the length of the dominant cycle is 12 months. Red point indicates the power of the 12-month cycle. (**c**) Time series of power of one-year cycle calculated as follows: (1) power of one-year cycle is calculated for a three-year window, (2) we slid the window one time-step forward, (3) power of one-year cycle is again calculated for the new three-year window, and (4) steps 2-3 were repeated until the end of the time series. (**d**) First difference of the time series of power of one-year cycle. CCM was performed for the first difference time series. (**e**) Examples of the model time series with different strengths of seasonality. Numbers in parentheses indicate the strength of seasonality (corresponding to $\beta_{2,i}$ in Eqn. (1) in Methods). (**f**) Examples of the model time series. Blue line indicates a response time series (e.g., leaf litter time series; Eqn. (2) in Methods). Red, green, and yellow lines indicate time series A, B and C (see Eqn. (1) in Methods). Time series A, B and C have continuous, periodic, and no influence on the response variable, respectively. The red time series is a true driver of the seasonality of the response variable.
+](../0_RawFigs/FigS_fCCM_Explanation.pdf)
+
+</center>
+
+
+
+
+<center>
+
+![
+**Figure S2**| **The results of the performance test of spectrum convergent cross mapping (spectrum CCM).** Seasonality strength, observation errors and mean joint *P*-values of spectrum CCM applied to time series that have (**a**) continuous influence (the true seasonality driver), (**b**) periodic influence, and (**c**) no influence on the target variable. Different colours indicate different strengths of seasonality. Dashed line indicates joint *P*-value = 0.05. Seasonality strength, observation errors and detection probability (as the true seasonality driver) of spectrum CCM applied to time series that have (**d**) continuous influence (the true seasonality driver), (**e**) periodic influence, and (**f**) no influence on the target variable. Different colours indicate different strengths of seasonality. Heat map of the seasonality strength, observation errors and mean joint *P*-values of spectrum CCM applied to time series that have (**g**) continuous influence (the true seasonality driver), (**h**) periodic influence, and (**i**) no influence on the target variable. Colours indicate mean joint *P*-value. If a time series has weak to strong seasonality and observation errors less than 20-30$\%$, then spectrum CCM correctly distinguishes the true seasonality driver from non-driver (**a**–**c**), and the probability of false-positive detection is low (10–20$\%$; **e**–**f**).
+](../0_RawFigs/FigS_fCCMtest_All.pdf)
+
+</center>
+
+
+<center>
+
+![
+**Figure S3**| **The results of the performance test of convergent cross mapping (normal CCM).** Seasonality strength, observation errors and mean joint *P*-values of normal CCM applied to time series that have (**a**) continuous influence (the true seasonality driver), (**b**) periodic influence, and (**c**) no influence on the target variable. Different colours indicate different strengths of seasonality. Dashed lines indicate joint *P*-value = 0.05. Seasonality strength, observation errors and detection probability (as the true seasonality driver) of normal CCM applied to time series that have (**d**) continuous influence (the true seasonality driver), (**e**) periodic influence, and (**f**) no influence on the target variable. Different colours indicate different strengths of seasonality. Heat map of the seasonality strength, observation errors and mean joint P-values of normal CCM applied to time series that have (**g**) continuous influence (the true seasonality driver), (**h**) periodic influence, and (**i**) no influence on the target variable. Colours indicate mean joint *P*-value. If time series has weak to strong seasonality, then normal CCM may incorrectly detect a non-driver as the driver (**b**–**c**). Also, even with weak to moderate strength of seasonality, the probability of false-positive detection is high for time series that have periodic influence (50–75$\%$; **e**) and no influence (20–50$\%$; **f**).
+
+
+](../0_RawFigs/FigS_nCCMtest_All.pdf)
+
+</center>
+
+<center>
+
+![
+**Figure S4**| **Monthly patterns of leaf litter production in the tropical rain forests on Mt. Kinabalu.** In general, leaf litter production is larger from March to June than in other months at most sites. This trend is detected as the one-year periodicity using Fourier analysis.
+](../0_RawFigs/FigS_MonthlyPatternLeaf.pdf)
+
+</center>
+
+
+<center>
+
+![
+**Figure S5**| **Time series of flower litter production in tropical rain forests on Mt. Kinabalu.** Black lines indicate flower litter production, and red lines indicate mean daily air temperature corrected by general additive model (only patterns are shown). The values on the y-axis are for flower litter production. Flower litter production does not show clear annual periodicity, unlike leaf litter production.
+](../0_RawFigs/FigS_FlowerLitterTS.pdf)
+
+</center>
+
+
+<center>
+
+![
+**Figure S6**| **Monthly patterns of daily mean air temperature.** The original values were corrected by a general additive model and the residuals are shown. In general, daily mean air temperature is higher from March to June.
+](../0_RawFigs/FigS_MonthlyPatternClimate.pdf)
+
+</center>
+
+
+
+<center>
+
+![
+**Figure S7**| **Confidence intervals and significance of the dominant periodicity of litter and meteorological time series.** Black points indicate the power of the dominant periodicity (note that the powers were not always for the 1-year periodicity). Bars indicate 95$\%$ confidence intervals calculated by assuming that spectral estimates approximate a chi-square distribution. Red and blue bars indicate null and average spectrum, respectively. Red and blue asterisks indicate the significance of the power based on the null and average spectrum, respectively. If the power is not significant, only \"dot\" is shown.
+](../0_RawFigs/FigS_ConfidenceInt.pdf){width=80%}
+
+</center>
+
+<center>
+
+![
+**Figure S8**| **Wavelet analysis of leaf litter production.** _x_-axis and _y_-axis and color indicate time points, the length of periodicity and the strength of the periodicity at each frequency, respectively. Black lines indicate the ridge of wavelet power.
+](../0_RawFigs/FigS_LeafWavelet.pdf)
+
+</center>
+
+
+<center>
+
+![
+**Figure S9**| **Wavelet analysis of flower litter production.** _x_-axis and _y_-axis and color indicate time points, the length of periodicity and the strength of the periodicity at each frequency, respectively. Black lines indicate the ridge of wavelet power.
+](../0_RawFigs/FigS_FlowerWavelet.pdf)
+
+</center>
+
+
+<center>
+
+![
+**Figure S10**| **Wavelet analysis of daily mean air temperature.** _x_-axis and _y_-axis and color indicate time points, the length of periodicity and the strength of the periodicity at each frequency, respectively. Black lines indicate the ridge of wavelet power.
+](../0_RawFigs/FigS_ClimateWavelet.pdf)
+
+</center>
+
+
+
+<center>
+
+![
+](../0_RawFigs/TableS1_TSlength.pdf){width=120%}
+
+</center>
+
+<center>
+
+![
+](../0_RawFigs/TableS2_FourierLitter.pdf){width=120%}
+
+</center>
+
+<center>
+
+![
+](../0_RawFigs/TableS3_FourierClimate.pdf){width=120%}
+
+</center>

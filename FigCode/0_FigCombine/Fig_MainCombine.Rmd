@@ -1,0 +1,46 @@
+---
+title:
+author:
+output:
+  pdf_document:
+    latex_engine: xelatex
+    fig_caption: yes
+#mainfont: Georgia
+mainfont: Palatino
+fontsize: 11pt
+header-includes:
+   - \usepackage{caption}
+   - \captionsetup[figure]{labelformat=empty}
+   - \pagenumbering{gobble} #### to delete page number
+classoption: a4paper
+---
+
+<center>
+
+![
+**Figure 1**| **Time series of leaf litter production in tropical rain forests on Mt. Kinabalu**. Black lines indicate leaf litter production, and red lines indicate mean daily air temperature corrected by general additive model (only patterns are shown). The values on the $y$-axis is for leaf litter production.
+](../0_RawFigs/Fig_LeafLitterTS.pdf)
+
+</center>
+
+
+<center>
+
+![
+**Figure 2**| **Significance of the dominant cycle and spectrum of each time series**. (Legends continued to the next page)
+](../0_RawFigs/Fig_Periodogram.pdf){width=110%}
+
+</center>
+
+\newpage
+(Figure 2. Continued.) Spectrum of litter time series collected (**a**) at sedimentary/granite and ultrabasic sites at 3100 m, (**b**) at sedimentary and ultrabasic sites at 2700 m, (**c**) at sedimentary, ultrabasic and quaternary sites at 1700 m and (**d**) at sedimentary and ultrabasic sites at 700 m. Note that litter monitoring was abandoned at the ultrabasic site at 700 m after two years due to the site’s extreme remoteness, and therefore the time series length is much shorter than those of the other sites. Spectrum of climate variables measured (**e**) at 3270 m, (**f**) 2700 m, (**g**) 1560 m, and (**h**) 550 m (corresponding to 3100 m, 2700 m, 1700 m and 700 m forest site, respectively). Mean temp., Potential ET, Actual VP, Sat. Def. and PAR indicate mean daily air temperature, potential evapotranspiration, actual vapor pressure, saturation deficit and photosynthetically active radiation, respectively. Dashed vertical line in each panel indicates the 1-year periodicity. Red and gray triangles indicate significant dominant periodicity and insignificant dominant periodicity at $P$ < 0.05, respectively (see more details in Figure S7). Dominant periodicity longer than 60 mo is not shown, but presented in Tables S2 and S3. Gradient colours indicate the strength of the power.
+
+\newpage
+<center>
+
+![
+**Figure 3**| **Results of spectrum convergent cross mapping (spectrum CCM)**. Points indicate cross-map skills ($\rho$; correlation coefficient between observed values predicted by the cross-mapping). Only significant ($P$ < 0.05) cross-map skills are shown. The number below each point indicates time-lag (months) of the significant cross-mapping. Labels on the $x$-axis indicate climate variables. The label on the top of each panel indicates the forest site.
+](../0_RawFigs/Fig_fCCMResult.pdf)
+
+</center>
+
