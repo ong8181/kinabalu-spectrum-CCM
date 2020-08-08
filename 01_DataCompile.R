@@ -4,7 +4,7 @@
 #### No.1: Data compile
 ####
 
-#### A part of code is from the supplement of Bush et al. (2016)
+#### A part of code is from the supplement of Bush et al. (2017)
 #### "Fourier analysis to detect phenological cycles using tropical field data and simulations"
 #### Methods in Ecology and Evolution doi:10.1111/2041-210X.12704
 
