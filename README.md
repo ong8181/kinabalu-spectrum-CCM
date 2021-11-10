@@ -1,4 +1,4 @@
-# R scripts for Kitayama et al. (2020) <i>Journal of Ecology</i>
+# R scripts for Kitayama et al. (2021) <i>Journal of Ecology</i>
 This repository contains R scripts to reproduce the results reported in Kitayama et al. "Temperature is a dominant driver of distinct annual seasonality of leaf litter production of equatorial tropical rain forests" (2021) <i>Journal of Ecology</i> http://dx.doi.org/10.1111/1365-2745.13500. _bioRxiv_ version of this manuscript is available <a href="https://doi.org/10.1101/454058" target="_blank">here</a>.
 
 # Overview
